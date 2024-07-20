@@ -22,6 +22,9 @@
 #define _Cordic_h
 
 #include <cmath>
+#ifdef issubnormal
+#undef issubnormal
+#endif
 #include <cfenv>
 #include <cstdint>
 #include <iostream>

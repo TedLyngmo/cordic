@@ -28,6 +28,9 @@
 
 #include <string>
 #include <cmath>
+#ifdef issubnormal
+#undef issubnormal
+#endif
 #include <cstddef>
 #include <cstdint>
 #include <iostream>
